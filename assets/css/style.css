@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --light_blue:#287094;
+    --light_gray:#d4d4ce;
+    --cream_white:#f6f6f6;
+    --dark_blue:#023246;
+}
+
+body{
+    background-color: var(--light_gray);
+}
+
+header{
+    padding: 1%;
+    background-color: var(--dark_blue);
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    color: var(--light_gray);
+    padding: 20px;
+    background-color: var(--light_blue);
+    max-width: 300px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
