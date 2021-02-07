@@ -87,20 +87,112 @@ header nav a:hover{
 
 .about{
     display: flex;
+    padding: 30px 10px 30px 10px;
 }
 
-.about h1{
+.about aside{
+    flex-basis: 20%;
+}
+
+.about aside h1{
     color: var(--dark_blue);
     font-size: 3em;
-    flex-basis: 30%;
     text-align: right;
     border-right: 5px solid var(--dark_blue);
     padding-right: 20px;
-    margin: 20px;
+    margin: 0px 20px 20px 20px;
     height: 100%;
 }
 
+.about .paragraph-container{
+    flex-basis: 80%;
+    padding-right: 5%;
+}
+
 .about p{
-    flex-basis: 70%;
-    
+    margin: 20px;
+    color: var(--dark_blue);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+.work{
+    display: flex;
+    padding: 30px 10px 30px 10px;
+}
+
+.work aside{
+    flex-basis: 20%;
+}
+
+.work aside h1{
+    color: var(--dark_blue);
+    font-size: 3em;
+    text-align: right;
+    border-right: 5px solid var(--dark_blue);
+    padding-right: 20px;
+    margin: 0px 20px 20px 20px;
+    height: 100%;
+}
+
+.work .project-cards{
+    flex-basis: 80%;
+    padding-right: 5%;
+    height: 100%;
+}
+
+.work .project-cards .big-card-interior{
+    border: 5px solid var(--dark_blue);
+    height: 550px;
+    width: 100%;
+}
+
+.work .project-cards .card-interior{
+    border: 5px solid var(--dark_blue);
+    height: 150px;
+}
+
+/*Start of contact section*/
+
+.contact{
+    display: flex;
+    padding: 30px 10px 30px 10px;
+}
+
+.contact aside{
+    flex-basis: 20%;
+}
+
+.contact aside h1{
+    color: var(--dark_blue);
+    font-size: 3em;
+    text-align: right;
+    border-right: 5px solid var(--dark_blue);
+    padding-right: 20px;
+    margin: 0px 20px 20px 20px;
+    height: 100%;
+}
+
+.contact .contact-info{
+    flex-basis: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact .contact-info ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.contact .contact-info a{
+    color: var(--light_blue);
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 0 10px 5px 10px;
+    border-bottom: 5px solid var(--light_blue);
 }
