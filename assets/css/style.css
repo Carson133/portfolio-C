@@ -16,6 +16,8 @@ body{
     background-color: var(--light_gray);
 }
 
+/*Start of HEADER section*/
+
 header{
     background-color: var(--blue_gray);
     display: flex;
@@ -56,6 +58,8 @@ header nav a:hover{
     transition: 500ms;
 }
 
+/*Start of SUBTITLE section*/
+
 .subtitle{
     display: flex;
     justify-content: center;
@@ -76,7 +80,6 @@ header nav a:hover{
     background-color: var(--light_blue);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
-
 }
 
 .subtitle img{
@@ -84,6 +87,8 @@ header nav a:hover{
     min-width: 100%;
     min-height: 100%
 }
+
+/*Start of ABOUT section*/
 
 .about{
     display: flex;
@@ -116,6 +121,8 @@ header nav a:hover{
     font-size: 1.1em;
 }
 
+/*Start of WORK section*/
+
 .work{
     display: flex;
     padding: 30px 10px 30px 10px;
@@ -142,17 +149,80 @@ header nav a:hover{
 }
 
 .work .project-cards .big-card-interior{
-    border: 5px solid var(--dark_blue);
+    border: 5px solid var(--light_blue);
     height: 550px;
-    width: 100%;
+    width: 98.3%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.work .project-cards .big-card-interior img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.work .project-cards .big-card-interior .card-text{
+    position: absolute;
+    left: 0%;
+    bottom: 10%;
+    color: var(--blue_gray);
+    padding: 10px;
+    background-color: var(--light_blue);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.work .project-cards .big-card-interior .card-text p{
+    font-size: 20px;
+}
+
+.work .project-cards .card-set1{
+    display: flex;
+}
+
+.work .project-cards .card-set2{
+    display: flex;
 }
 
 .work .project-cards .card-interior{
-    border: 5px solid var(--dark_blue);
+    border: 5px solid var(--light_blue);
     height: 150px;
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
 }
 
-/*Start of contact section*/
+.work .project-cards .card-interior img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.work .project-cards .card-interior .card-text{
+    position: absolute;
+    left: 0%;
+    bottom: 10%;
+    color: var(--blue_gray);
+    padding: 10px;
+    background-color: var(--light_blue);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.work .project-cards .card-interior .card-text p{
+    font-size: 20px;
+}
+
+/*Start of CONTACT section*/
 
 .contact{
     display: flex;
