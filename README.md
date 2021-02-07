@@ -16,7 +16,7 @@ Link to page: [Portfolio-C](https://carsoncarraher.dev/)
 
 ## License
 
-Licensed under the [MIT](LICENSE.txt) license.
+Licensed under the [MIT](LICENSE) license.
 
 ---
 
