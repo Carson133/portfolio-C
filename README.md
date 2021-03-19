@@ -4,7 +4,7 @@
 
 Personal Portfolio - This is my personal portfolio page's code.
 
-Link to page: [Portfolio-C](https://carsoncarraher.dev/)
+Link to page: [Portfolio-C](https://carsonc.dev/)
 
 <p align="center">
   <img alt="My github pages screenshot" src="https://raw.githubusercontent.com/Carson133/portfolio-C/main/assets/images/portfolio-deployed.PNG">

@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-c",
+  "version": "1.0.0",
+  "description": "My portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carson133/portfolio-C.git"
+  },
+  "author": "carsonc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Carson133/portfolio-C/issues"
+  },
+  "homepage": "https://github.com/Carson133/portfolio-C#readme",
+  "dependencies": {
+    "foundation": "^4.2.1-1",
+    "foundation-sites": "^6.6.3"
+  }
+}
